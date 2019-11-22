@@ -210,3 +210,4 @@ vendor/etc/sensors/config/tcs3701.json
 vendor/etc/sensors/sns_reg_config
 vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.ssc.so
+vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so

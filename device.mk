@@ -31,6 +31,9 @@ PRODUCT_PACKAGES += \
 # FOD
 EXTRA_FOD_ANIMATIONS := true
 
+# Recovery Override
+PRODUCT_PROPERTY_OVERRIDES += persist.vendor.recovery_update=false
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)

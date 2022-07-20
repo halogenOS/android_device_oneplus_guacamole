@@ -281,7 +281,7 @@
 
     <!-- Vibrator pattern for a very short but reliable vibration for soft keyboard tap -->
     <integer-array name="config_keyboardTapVibePattern">
-        <item>20</item>
+        <item>10</item>
     </integer-array>
 
     <integer-array name="config_defaultNotificationVibePattern">
@@ -300,4 +300,7 @@
     <integer name="config_defaultRingVibrationIntensity">3</integer>
 
     <bool name="config_audioPanelOnLeftSide">true</bool>
+    
+    <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+    <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/power_supply/battery/fastchg_status</string>
 </resources>

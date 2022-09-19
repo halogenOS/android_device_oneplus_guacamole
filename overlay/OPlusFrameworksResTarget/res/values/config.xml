@@ -943,4 +943,7 @@
 
     <string name="config_stockFingerprint" translatable="false">oplus/ossi/ossi:12/SKQ1.211113.001/1679053754687:user/release-keys</string>
 
+    <!-- Device model (Build.MODEL) to spoof for netflix, if not empty -->
+    <string name="config_netflixSpoofModel" translatable="false">M2101K9G</string>
+
 </resources>

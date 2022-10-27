@@ -241,4 +241,6 @@
 
     <!-- Whether device has dash charging support -->
     <bool name="config_hasDashCharger">true</bool>
+    <!-- Path to dash charging status file -->
+    <string name="config_DashChargerStatusPath">/sys/class/power_supply/battery/fastcharger</string>
 </resources>

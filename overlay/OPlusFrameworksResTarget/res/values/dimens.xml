@@ -8,5 +8,10 @@
     <!-- Radius of the software rounded corners. -->
     <dimen name="rounded_corner_radius">8dp</dimen>
 
+    <!-- Padding for statusbar-->
+    <dimen name="status_bar_height_default">36.599976dip</dimen>
+    <dimen name="status_bar_height_portrait">36.599976dip</dimen>
+    <dimen name="status_bar_height_landscape">36.599976dip</dimen>
+
 </resources>
 

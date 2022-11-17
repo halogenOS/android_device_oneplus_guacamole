@@ -12,7 +12,7 @@
     <integer name="config_maxVisibleNotificationIconsOnLock">7</integer>
 
     <!-- Color of the UDFPS Pressed view -->
-    <color name="config_udfpsColor">#000b4e7</color>
+    <color name="config_udfpsColor">#00b4e7</color>
 
     <!-- HBM type of UDFPS overlay.
             0 - GLOBAL HBM
@@ -22,5 +22,8 @@
 
     <!-- The CPU temperature divider, if needed -->
     <integer name="config_cpuTempDivider" translatable="false">1000</integer>
+
+    <!-- Set audio panel to left side -->
+    <bool name="config_audioPanelOnLeftSide">true</bool>
 
 </resources>

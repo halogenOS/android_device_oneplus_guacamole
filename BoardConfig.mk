@@ -34,7 +34,7 @@ SOONG_CONFIG_ONEPLUS_MSMNILE_SENSORS_ALS_POS_X := 1000
 SOONG_CONFIG_ONEPLUS_MSMNILE_SENSORS_ALS_POS_Y := 260
 
 #Maintainer
-DEVICE_MAINTAINER := Noah Anleitner (N0m4n904)
+DEVICE_MAINTAINER := Noah Anleitner (N0m4n904)\nSimao Gomes Viana (superboringdev)
 
 # Include the proprietary files BoardConfig.
 -include vendor/oneplus/guacamole/BoardConfigVendor.mk

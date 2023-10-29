@@ -1,0 +1,11 @@
+[
+  {
+    "repository": "android_device_oneplus_sm8150-common",
+    "target_path": "device/oneplus/sm8150-common",
+    "branch": "XOS-14.0.1"
+  },
+  {
+    "repository": "android_vendor_oneplus-guacamole",
+    "target_path": "vendor/oneplus/guacamole"
+  }
+]

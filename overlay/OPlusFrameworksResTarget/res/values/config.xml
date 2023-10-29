@@ -940,4 +940,7 @@
 
      <!-- Set audio panel to the left side -->
      <bool name="config_audioPanelOnLeftSide">true</bool>
+
+    <string name="config_stockFingerprint" translatable="false">oplus/ossi/ossi:12/SKQ1.211113.001/1679053754687:user/release-keys</string>
+
 </resources>

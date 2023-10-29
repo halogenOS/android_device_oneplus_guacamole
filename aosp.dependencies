@@ -5,7 +5,7 @@
     "branch": "XOS-14.0.1"
   },
   {
-    "repository": "android_vendor_oneplus-guacamole",
+    "repository": "android_vendor_oneplus_guacamole",
     "target_path": "vendor/oneplus/guacamole"
   }
 ]

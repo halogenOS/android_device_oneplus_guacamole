@@ -34,5 +34,7 @@ BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
 
+DEVICE_MAINTAINER := Noah Anleitner (N0m4n904)\nSimao Gomes Viana (superboringdev)
+
 # Include the proprietary files BoardConfig.
 include vendor/oneplus/guacamole/BoardConfigVendor.mk

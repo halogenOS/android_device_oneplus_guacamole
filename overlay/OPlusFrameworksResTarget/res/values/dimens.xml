@@ -17,5 +17,9 @@
         -->
    <dimen name="status_bar_height_portrait">36.599976dip</dimen>
 
+   <!-- Fling velocities -->
+    <dimen name="config_viewMinFlingVelocity">50dp</dimen>
+    <dimen name="config_viewMaxFlingVelocity">7400dp</dimen>
+
 </resources>
 

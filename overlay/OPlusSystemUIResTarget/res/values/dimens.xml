@@ -27,4 +27,9 @@
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">1250px</dimen>
 
+    <!-- The position of the volume dialog on the screen.
+         See com.android.systemui.volume.VolumeDialogImpl.
+         Value 19 corresponds to LEFT|CENTER_VERTICAL. -->
+    <integer name="volume_dialog_gravity">19</integer>
+
 </resources>

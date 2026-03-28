@@ -17,7 +17,6 @@ import android.os.Handler
 import android.os.HandlerThread
 import android.os.IBinder
 import android.os.Looper
-import android.os.ServiceManager
 import android.os.SystemClock
 import android.util.Log
 
@@ -104,7 +103,7 @@ class PopupCameraService : Service() {
     override fun onCreate() {
         super.onCreate()
 
-        val binder = ServiceManager.waitForService("$DESCRIPTOR/default")
+        val binder = waitForService("$DESCRIPTOR/default")
         if (binder == null) {
             Log.e(TAG, "Popup camera HAL not found")
             stopSelf()
@@ -150,6 +149,14 @@ class PopupCameraService : Service() {
         private const val FALL_RERAISE_DELAY_MS = 1500L
         private const val MSG_OPEN = 1001
         private const val MSG_CLOSE = 1000
+
+        private fun waitForService(name: String): IBinder? = try {
+            val sm = Class.forName("android.os.ServiceManager")
+            sm.getMethod("waitForService", String::class.java).invoke(null, name) as? IBinder
+        } catch (e: Exception) {
+            Log.e(TAG, "Failed to get service $name", e)
+            null
+        }
 
         fun start(context: Context) {
             context.startService(Intent(context, PopupCameraService::class.java))

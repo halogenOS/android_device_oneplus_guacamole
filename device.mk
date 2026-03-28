@@ -18,9 +18,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 3120
 TARGET_SCREEN_WIDTH := 1440
 
-# Camera
-# PRODUCT_PACKAGES += \
-#     OnePlusCameraHelper
+# Popup camera
+PRODUCT_PACKAGES += \
+    vendor.oplus.hardware.popupcamera-service.guacamole \
+    PopupCameraController
 
 # Device init scripts
 PRODUCT_PACKAGES += \

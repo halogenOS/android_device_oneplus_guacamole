@@ -1,0 +1,4 @@
+service popupcamera-hal-guacamole /vendor/bin/hw/vendor.oplus.hardware.popupcamera-service.guacamole
+    class hal
+    user system
+    group system

@@ -1,0 +1,11 @@
+# Popup camera HAL - motor sysfs access
+binder_use(hal_oplus_popupcamera_default)
+
+# Motor control via sysfs
+allow hal_oplus_popupcamera_default sysfs_motor:dir r_dir_perms;
+allow hal_oplus_popupcamera_default sysfs_motor:file rw_file_perms;
+
+# Read calibration from persist
+allow hal_oplus_popupcamera_default mnt_vendor_file:dir search;
+allow hal_oplus_popupcamera_default vendor_persist_engineer_file:dir r_dir_perms;
+allow hal_oplus_popupcamera_default vendor_persist_engineer_file:file r_file_perms;

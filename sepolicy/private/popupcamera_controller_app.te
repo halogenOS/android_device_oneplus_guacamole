@@ -1,0 +1,9 @@
+type popupcamera_controller_app, domain;
+
+app_domain(popupcamera_controller_app)
+
+hal_client_domain(popupcamera_controller_app, vendor_hal_oplus_popupcamera)
+
+# Camera availability callback
+allow popupcamera_controller_app cameraserver_service:service_manager find;
+allow popupcamera_controller_app app_api_service:service_manager find;

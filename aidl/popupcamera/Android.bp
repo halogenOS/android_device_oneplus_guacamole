@@ -1,0 +1,16 @@
+cc_binary {
+    name: "vendor.oplus.hardware.popupcamera-service.guacamole",
+    relative_install_path: "hw",
+    vendor: true,
+    init_rc: ["vendor.oplus.hardware.popupcamera-service.guacamole.rc"],
+    vintf_fragments: ["vendor.oplus.hardware.popupcamera-service.guacamole.xml"],
+    srcs: [
+        "service.cpp",
+        "PopupCamera.cpp",
+    ],
+    shared_libs: [
+        "libbase",
+        "libbinder_ndk",
+        "vendor.oplus.hardware.popupcamera-V1-ndk",
+    ],
+}

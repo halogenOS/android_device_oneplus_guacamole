@@ -1,0 +1,2 @@
+# Popup camera
+/vendor/bin/hw/vendor\.oplus\.hardware\.popupcamera-service\.guacamole    u:object_r:hal_oplus_popupcamera_default_exec:s0
